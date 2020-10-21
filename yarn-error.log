@@ -1,0 +1,46 @@
+Arguments: 
+  D:\libs\nodejs\node.exe C:\Users\crow\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add broswer-sync
+
+PATH: 
+  D:\apps\cmder_mini\vendor\bin;D:\apps\cmder_mini\vendor\conemu-maximus5\ConEmu\Scripts;D:\apps\cmder_mini\vendor\conemu-maximus5;D:\apps\cmder_mini\vendor\conemu-maximus5\ConEmu;C:\Perl64\bin;C:\Users\crow\AppData\Roaming\ActiveState\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;d:\Program Files\MATLAB\R2018b\runtime\win64;d:\Program Files\MATLAB\R2018b\bin;D:\libs\nodejs\;D:\libs\python2.9;D:\libs\python2.9\Scripts;C:\Users\crow\AppData\Local\Microsoft\WindowsApps;D:\apps\cmder_mini;C:\Program Files\Multipass\bin;D:\apps\MikTex\miktex\bin\x64\;C:\Perl64\bin;C:\Users\crow\AppData\Local\Programs\Microsoft VS Code\bin;D:\libs\Python2700;C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\Bin00;C:\Users\crow\AppData\Roaming\npm;C:\Users\crow\miniconda3;C:\Users\crow\miniconda3\pkgs;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/broswer-sync: Not found
+      at Request.params.callback [as _callback] (C:\Users\crow\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66988:18)
+      at Request.self.callback (C:\Users\crow\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140662:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (C:\Users\crow\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141634:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (C:\Users\crow\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141556:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "web_test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "script.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
