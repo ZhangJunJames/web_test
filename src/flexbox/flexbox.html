@@ -8,26 +8,55 @@
     <style>
         .main{
             display: flex;
-            
+            /* flex-direction: row | row-reverse | column | column-reverse; */
+            flex-direction: row;
+            /* flex-wrap: nowrap | wrap | wrap-reverse; */
+            flex-wrap: wrap;
+            /* justify-content: flex-start | flex-end | center | space-between | space-around; */
+            justify-content: space-around;
+            /* align-items: flex-start | flex-end | center | baseline | stretch; */
+            align-items: stretch;
         }
-        .paper{
+        .banner{
+            height: 5rem;
+            background-color: #999;
+        }
+        .paper, .paper1,.paper2{
             background-color:yellowgreen;
             width: 6rem;
             height: 6rem;
             margin: 0.5rem;
+            box-shadow: 2px 2px 4px 2px #aaa;
+            text-align: center;
+        }
+        .paper1{
+            width: 7rem;
+            height: 8rem;
+        }
+        .paper2{
+            width: 8rem;
+            height: 5rem;
+        }
+        .paper2{
+            width: 6rem;
+            height: 9rem;
         }
     </style>
 </head>
 <body>
     <!-- https://css-tricks.com/snippets/css/a-guide-to-flexbox/ -->
     <!-- http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html -->
+    <div class="banner"></div>
     <div class="main">
-        <div class="paper"></div>
-        <div class="paper"></div>
-        <div class="paper"></div>
-        <div class="paper"></div>
-        <div class="paper"></div>
-        <div class="paper"></div>
+        <div class="paper">1</div>
+        <div class="paper2">2</div>
+        <div class="paper">3</div>
+        <div class="paper1">4</div>
+
+        <!-- <div class="paper">5</div>
+        <div class="paper">6</div>
+        <div class="paper">7</div> -->
+   
     </div>
 </body>
 </html>
